@@ -26,8 +26,11 @@ INSERT INTO class (`name`) VALUES ("rahul");
 COMMIT;
 
 START TRANSACTION;
+
 SAVEPOINT hillspoint;
+
 INSERT INTO class (`name`) VALUES ("heaven");
+
 ROLLBACK TO hillspoint;
 
 COMMIT;
