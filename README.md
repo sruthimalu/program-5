@@ -2,7 +2,7 @@
  (a) Create a table class.Fields are name and id 
 
 CREATE TABLE class (`id` INT PRIMARY KEY AUTO_INCREMENT,
-    `name` VARCHAR(34));
+    `name` VARCHAR(50));
 
 
 (b) Insert values into the table 
