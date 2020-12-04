@@ -18,9 +18,11 @@ SELECT * FROM class
 START TRANSACTION;
 
 INSERT INTO class (`name`) VALUES ("rahul");
+
 ROLLBACK; 
 
 INSERT INTO class (`name`) VALUES ("rahul");
+
 COMMIT;
 
 START TRANSACTION;
