@@ -12,6 +12,7 @@ INSERT INTO class (`name`) VALUES ("ram"), ("ravi"), ("yamuna");
 (c) Display the table 
 
 SELECT * FROM class
+
 (d) Apply commit, save point and rollback commands 
 
 START TRANSACTION;
